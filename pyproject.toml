@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "my_calc"
-version = "0.1.0"
+version = "0.1.1"
 description = "abc"
 authors = [
     {name = "Ayush Dev", email = "ayush.dev@telaverge.com"}
