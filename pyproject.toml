@@ -4,7 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "my_calc"
-version = "0.1.1"
+version = "0.2.0"
+dependencies = [
+    "requests>=2.25.0",  # Minimum version required
+    "numpy>=1.21.0",     # Must have numpy 1.21 or higher
+    "pandas",            # No version constraint (gets latest)
+]
 description = "abc"
 authors = [
     {name = "Ayush Dev", email = "ayush.dev@telaverge.com"}
